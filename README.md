@@ -10,6 +10,8 @@ source env.sh
 > This step is only requred if you haven't done that already on the same cluster
 
 ```bash
+## Have the operator helm chart repo added using the following command
+helm repo add weblogic-kubernetes-operator https://oracle.github.io/weblogic-kubernetes-operator/charts
 cd .meta/operator
 ./install.sh
 ```
